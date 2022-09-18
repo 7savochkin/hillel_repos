@@ -29,6 +29,4 @@ def get_currency_exchange_rate(date: str, currency_base: str,
         return f'Not found: {currency_base} to {currency_exchange}'
     else:
         return f'ApiError {response.status_code}: {json_rate.get("errorDescription")}'
-
-
-print(get_currency_exchange_rate('25.08.2022', 'UAH', 'ASD', 'AA'))
+      
