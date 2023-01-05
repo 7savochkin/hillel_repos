@@ -1,5 +1,5 @@
 # hillel_repos
-Repository for homework during the Python Advanced course at Hillel IT School
+Repository for homework on Flask during the Python Advanced course at Hillel IT School
 
 For running the app:
 pip install requirements.txt
